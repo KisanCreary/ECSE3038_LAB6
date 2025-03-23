@@ -1,0 +1,14 @@
+=[wokwi]
+version = 1
+fqbn = "esp32:esp32:esp32"
+
+[[wokwi.parts]]
+type = "esp32"
+
+[[wokwi.parts]]
+type = "led"
+pin = 23
+
+[[wokwi.parts]]
+type = "lm35"
+pin = 34
